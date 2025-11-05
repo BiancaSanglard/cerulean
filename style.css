@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fff;
+}
+
+header {
+  background-color: rgb(51, 179, 142);
+  padding: 30px 0; 
+}
+
+.cabecalho {
+  width: 960px; 
+  margin: 0 auto;
+}
+
+#title {
+  display: flex;
+  align-items: center; 
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+header nav ul {
+  list-style: none;
+  background-color: rgb(78, 190, 158);
+  width: 580px;
+  height: 35px;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 13px;
+}
+
+header nav ul li a, #title {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.part1 {
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  padding: 50px 20px; 
+}
+
+.part1 h1 {
+  font-size: 35px;
+  padding-bottom: 30px;
+  font-weight: 300; 
+}
+
+.part1 p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #777;
+    line-height: 1.6;
+}
+
+.bianca {
+  display: flex;
+  width: 960px;
+  margin: 40px auto; 
+}
+
+.cards {
+  flex: 1; 
+  text-align: center;
+  padding: 0 20px; 
+}
+
+.cards p {
+  padding-top: 30px; 
+  padding-bottom: 30px;
+  color: #777;
+  line-height: 1.6;
+}
+
+.cards h1 {
+  font-size: 26px;
+  font-weight: 500; 
+}
+
+#botoes a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+#botoes {
+  background-color: rgb(51, 179, 142);
+  width: 120px;
+  height: 40px;
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.meio {
+  display: flex;
+  width: 960px;
+  margin: 40px auto;
+}
+
+.mostruario {
+  text-align: center;
+  flex: 1;
+  padding: 0 10px; 
+}
+
+.mostruario img {
+    max-width: 100%;
+}
+
+#titulo {
+  font-weight: 800;
+  padding: 20px 0px 20px 0px; 
+  color: #555;
+}
+
+.mostruario p {
+    color: #777;
+}
+
+#segbot {
+  background-color: rgb(51, 179, 142);
+  width: 120px;
+  height: 40px;
+  padding-top: 10px;
+  margin-top: 20px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#segbot a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.final {
+  background-color: rgb(243, 243, 243);
+  text-align: center;
+  font-size: 22px;
+  padding: 50px;
+}
+
+.final h1 {
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.icones i {
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 70px; 
+  height: 70px; 
+  margin: 5px; 
+  border-radius: 50%; 
+  background-color: rgb(51, 179, 142);
+  color: white; 
+  font-size: 40px; 
+  margin-top: 40px;
+}
+
+footer {
+  background-color: rgb(51, 179, 142);
+  text-align: center;
+  padding: 40px 0; 
+}
+
+footer p {
+  color: white;
+}
+
+.socials i {
+  display: inline-flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 40px; 
+  height: 40px; 
+  margin: 5px; 
+  background-color: rgb(78, 190, 158);
+  color: white; 
+  font-size: 20px; 
+  margin-top: 30px; 
+}
